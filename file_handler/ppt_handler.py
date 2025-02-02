@@ -13,7 +13,7 @@ def extract_pptx_content(file_path):
         "tables": []
     }
     
-    presentation = Presentation(io.BytesIO(file_path))
+    presentation = Presentation(file_path)
     output_dir = os.path.dirname(file_path) 
     
     for slide_num, slide in enumerate(prs.slides, start=1):
