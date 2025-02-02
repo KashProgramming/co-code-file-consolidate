@@ -11,7 +11,7 @@ def extract_docx_content(docx_file):
     Extracts text, tables, and images from a DOCX document.
     """
     docx_content = {"text": [], "images": [], "tables": []}
-    doc = Document(io.BytesIO(docx_file))
+    doc = Document(docx_file)
     
     for para in doc.paragraphs:
         if para.text.strip():
