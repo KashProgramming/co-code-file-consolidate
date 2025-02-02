@@ -1,0 +1,15 @@
+streamlit
+python-docx
+PyMuPDF
+python-pptx
+camelot-py
+torch
+nltk
+transformers
+pillow
+matplotlib
+pandas
+uvicorn
+opencv-python-headless
+tesseract
+pytesseract
